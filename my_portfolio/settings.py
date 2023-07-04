@@ -35,9 +35,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'peterchen999.com',
-    'www.peterchen999.com'
-    'peterchen999-8e0c298b148b.herokuapp.com'
+    '*.peterchen999.com',
+    '*.herokuapp.com'
 ]
 
 
