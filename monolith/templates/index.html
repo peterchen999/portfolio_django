@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>PortfolioPerfect</title>
+    <title>Peter Chen's Portfolio</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -48,32 +48,38 @@
     <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
         <nav id="primary-navigation" class="site-navigation">
             <div class="container">
-                <div class="navbar-header page-scroll">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="navbar-header page-scroll">
 
-                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    
-                    <a href="#hero" class="site-logo"><img src="{% static 'img/logo.png' %}" alt="logo"></a>
+                            <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            
+                            <a href="#hero" class="site-logo"><img src="{% static 'img/logo.png' %}" alt="logo"></a>
 
-                </div><!-- /.navbar-header -->
+                        </div><!-- /.navbar-header -->
+                    </div>
 
-                <div class="main-menu" id="portfolio-perfect-collapse">
+                    <div class="col-md-6">
+                        <div class="main-menu" id="portfolio-perfect-collapse">
 
-                    <ul class="nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav navbar-right">
 
-                        <li class="page-scroll"><a href="#hero">Home</a></li>
-                        <li class="page-scroll"><a href="#about">About</a></li>
-                        <li class="page-scroll"><a href="#service">Service</a></li>
-                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-                        <li class="page-scroll"><a href="#contact">Contact</a></li>
-                        
-                    </ul><!-- /.navbar-nav -->
+                                <li class="page-scroll"><a href="#hero">Home</a></li>
+                                <li class="page-scroll"><a href="#about">About</a></li>
+                                <li class="page-scroll"><a href="#service">Service</a></li>
+                                <li class="page-scroll"><a href="#portfolio">Projects</a></li>
+                                <!-- <li class="page-scroll"><a href="#contact">Contact</a></li> -->
+                                <li class="page-scroll"><a href="https://github.com/peterchen999">Github Profile</a></li>
+                                
+                            </ul><!-- /.navbar-nav -->
 
-                </div><!-- /.navbar-collapse -->
-
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </div>
             </div>
         </nav><!-- /.primary-navigation -->
     </header><!-- /#header -->
@@ -83,10 +89,11 @@
             <div class="row">
 
                 <div class="col-md-6">
-                    <h1>Alex Vidal</h1>
+                    <h1>Peter Chen</h1>
                     <div class="page-scroll">
-                        <p class="job-title">Full Stack Developer</p>
-                        <a href="#contact" class="btn btn-fill ">Hire me</a>
+                        <p class="job-title">Web Backend Developer</p>
+                        <p class="job-title">Firmware Engineer</p>
+                        <a href="mailto:peter.chen.devs@gmail.com" class="btn btn-fill ">Contact me</a>
                         <div class="clearfix visible-xxs"></div>
                         <a href="#portfolio" class="btn btn-border">Explore more</a>
                     </div>
@@ -108,8 +115,18 @@
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
                         <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
-                        <p>Hello! I'm Alex, a full stuck developer, a Ruby enthusiast, and a guy slighty obsessed for code quality. Also I'm a co-founder of pykod.com. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
-                        <a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
+                        <p>
+                            Hi! It's Peter Chen here! 
+                            I'm a second year graduate student in National Tsing Hua University. 
+                            Currently I'm with the <a href="https://logoslab.github.io/">LOGOS Lab</a> studying 
+                            high speed networks, security and blockchain design.
+                        </p>
+                        <p>
+                            I have experience in backend design and firmware design. Contact my business email
+                                <a href="mailto:peter.chen.devs@gmail.com"> peter.chen.devs@gmail.com </a>
+                            if you find my projects or work experience sounds interesting!
+                        </p>
+                        <a href="https://drive.google.com/file/d/1AODXgVVqCWA9FhzDN8GMkhKkM3olsaRy/view?usp=sharing" class="btn btn-fill" target="_blank" download>Download my cv</a>
                     </div>
                 </div>
             </div>
@@ -124,43 +141,43 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="skill">
-                            <h4>Html/css</h4>
+                            <h4>python</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                         <div class="skill">
-                            <h4>Python</h4>
+                            <h4>Computer Networks</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="95"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                     </div>
                     <div class="col-md-4">
                         <div class="skill">
-                            <h4>Javascript</h4>
+                            <h4>ruby</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="90"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                         <div class="skill">
-                            <h4>Ruby</h4>
+                            <h4>Algorithms</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="66"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                     </div>
                     <div class="col-md-4">
                         <div class="skill">
-                            <h4>Php</h4>
+                            <h4>c/c++</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="97"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                         <div class="skill">
-                            <h4>Java</h4>
+                            <h4>operating systems</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="45"></div><!-- /.progress-bar -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="80"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                     </div>
@@ -178,22 +195,30 @@
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="{% static 'img/front-end.svg' %}" alt="Front End Developer">
-                            <h4>Front-end</h4>
-                            <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as angular</p>
+                            <h4>Backend Design</h4>
+                            <p>As a backend developer, I use frameworks such as Django, Flask, Rails...etc. to design web backend.</p>
+                            <p>These works follow software design patterns and OOP designs. Take a look at my 
+                                <a href="#portfolio">projects</a>
+                                !
+                            </p>
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="{% static 'img/back-end.svg' %}" alt="Back End Developer">
-                            <h4>Back-end</h4>
-                            <p>Utilising php frameworks such as Zend or creating bespoke code, I've written services supporting thousands of users, including REST APIs, e-learning applications and more.</p>
+                            <h4>Blockchain Network</h4>
+                            <p>Currently working with LOGOS Lab, I've been researching high speed yet secured P2P network solutions for Blockchain applications.</p>
+                            <p>If you're interested in these topics, feel free to contact me through my email 
+                                <a href="mailto:peter.chen.devs@gmail.com">peter.chen.devs@gmail.com</a>
+                                !
+                            </p>
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="{% static 'img/consultancy.svg' %}" alt="Coding">
-                            <h4>Consultancy</h4>
-                            <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
+                            <h4>DevOps</h4>
+                            <p>Some of my projects are now online for public use! I've learnt a lot during the process, including version control, CI/CD, containers, IaaS, Paas.</p>
                         </div><!-- /.service -->
                     </div>
                 </div>
@@ -203,7 +228,7 @@
         <section id="portfolio" class="site-section section-portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h3>My recent Works</h3>
+                    <h3>My Recent Projects</h3>
                     <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
                 </div>
                 <div class="row">
@@ -275,11 +300,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="10" data-speed="2000">0</p>
+                        <p class="counter start" data-to="3" data-speed="2000">0</p>
                         <h4>Years Experience</h4>
                     </div>
                     <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="120" data-speed="2000">0</p>       
+                        <p class="counter start" data-to="30" data-speed="2000">0</p>       
                         <h4>Projects Delivered</h4>      
                     </div>
                     <div class="col-sm-4 col-xs-12">
