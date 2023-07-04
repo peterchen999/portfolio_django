@@ -29,6 +29,8 @@ if os.path.isfile(dotenv_file):
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY')
+MAIN_DOMAIN = os.environ.get('MAIN_DOMAIN')
+HEROKU_DOMAIN = os.environ.get('HEROKU_DOMAIN')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -36,8 +38,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '0.0.0.0',
-    '.peterchen999.com',
-    '.herokuapp.com'
+    MAIN_DOMAIN,
+    HEROKU_DOMAIN
 ]
 
 
